@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 750px;
     margin: 75px auto;
+    padding: 0 10px;
 }
 .heading small {
     display: block;
@@ -31,4 +32,16 @@
 }
 .storage {
     margin-bottom: 20px;
+}
+
+@media(max-width:767px){
+    label {
+        display: none;
+    }
+    .contain {
+        margin: 0 auto;
+    }
+    h1,h2 {
+        text-align: center;
+    }
 }
