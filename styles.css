@@ -1,0 +1,34 @@
+.contain {
+    width: 100%;
+    max-width: 750px;
+    margin: 75px auto;
+}
+.heading small {
+    display: block;
+}
+.add-item {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #4A4B5d;
+    border-bottom: 1px solid #4A4B5d;
+}
+#total {
+    display: block;
+    padding-top: 0.275em;
+}
+#add {
+    margin-bottom: 15px;
+}
+.item-list .qty,
+.item-list .price,
+.item-list .desc {
+    padding-right: 10px;
+}
+#save,#clear {
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.storage {
+    margin-bottom: 20px;
+}
